@@ -5,7 +5,10 @@ html
       | TegamiApp
     = csrf_meta_tags
     = csp_meta_tag
+    link href="https://fonts.gstatic.com" rel="preconnect" /
+    link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet" 
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   body
+    = render 'layouts/header'
     = yield
