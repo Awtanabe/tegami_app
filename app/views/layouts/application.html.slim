@@ -7,9 +7,11 @@ html
     = csp_meta_tag
     link href="https://fonts.gstatic.com" rel="preconnect" /
     link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet" 
+    script src="https://kit.fontawesome.com/84d345e866.js", crossorigin="anonymous"
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   body
-    = render 'layouts/header'
-    = yield
-    = render 'layouts/footer'
+    .wrapper
+      = render 'layouts/header'
+      = yield
+      = render 'layouts/footer'

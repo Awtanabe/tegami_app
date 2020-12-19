@@ -38,3 +38,21 @@
     }
   }  
 }
+.letter-new-btn {
+  position: relative;
+  left: 579px;
+  top: -132px;
+  // 430px
+  width: 90px;
+  height: 90px;
+  background: var(--base-color);
+  border-radius: 50%;
+
+  i {
+    position: absolute;
+    right: 29px;
+    top: 31px;
+    font-size: 33px;
+    color: white;
+  }  
+}

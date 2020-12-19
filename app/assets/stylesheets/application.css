@@ -17,6 +17,9 @@
  body {
    margin: 0;
  }
+ .wrapper {
+  max-height: 743px;
+ }
 
 :root {
   --base-color: #b5acb4;
