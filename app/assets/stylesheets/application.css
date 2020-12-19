@@ -17,3 +17,7 @@
  body {
    margin: 0;
  }
+
+:root {
+  --base-color: #b5acb4;
+}

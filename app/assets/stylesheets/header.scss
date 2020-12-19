@@ -1,9 +1,12 @@
 .homes-header__wrapper {
-  padding: 0 30px;
+  width: 100%;
   .homes-header {
     height: 50px;
+    padding: 0 30px;
     display: flex;
     align-items: center;
+    color: white;
+    background-color: var(--base-color);
     h3 {
       font-family: 'Sawarabi Mincho', sans-serif;
     }

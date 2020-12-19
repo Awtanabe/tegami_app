@@ -1,0 +1,14 @@
+.homes-fotter__wrapper {
+  position: fixed;
+  bottom: 0;
+  .homes-fotter {
+    width: 100vw;
+    height: 50px;
+    background-color: var(--base-color);
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+    align-items: center;
+  }
+}
