@@ -1,5 +1,6 @@
 .homes-wrapper
   .top-image
     = image_tag 'top-image.png'
-.letter-new-btn
-  i.fas.fa-envelope 
+= link_to new_letter_path do
+  .letter-new-btn
+    i.fas.fa-envelope 
