@@ -1,17 +1,12 @@
-// Place all the styles related to the homes controller here.
+// Place all the styles related to the letters controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.homes-wrapper {
-  .top-image {
-    img {
-      width: 100%;
-    }
-  }
-  .homes-step-bar__wrapper {
+.letter-wrapper {
+  .letter-step-bar__wrapper {
     background-color: #f3f2ef;
     height: 100px;
-    .homes-step-bar {
+    .letter-step-bar {
       height: 100%;
       display: flex;
       align-items: center;
@@ -31,8 +26,8 @@
       }
     }   
   }
-  .homes-letter-form__wrapper {
-    .homes-letter-form {
+  .letter-form__wrapper {
+    .letter-form {
       background-color:  #f8f8f6;
       height: calc(100vh - 200px);
     }
