@@ -1,0 +1,9 @@
+
+
+= render 'confirm', letter: @letter
+= form_with model: @letter, local: true do |form|
+  = form.hidden_field :title
+  = form.hidden_field :body
+  = form.hidden_field :option
+  = form.submit "送信"
+  = form.submit "戻る", name: :back

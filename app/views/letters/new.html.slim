@@ -12,4 +12,15 @@
           = 'step3'
   .letter-form__wrapper
     .letter-form
-    
+      = form_with model: @letter, url: confirm_letters_path, local: true do |form|
+        .form-group
+          = form.text_field :title   
+        .form-group
+          = form.text_area :title
+        .form-group
+          = form.radio_button :option, :option1
+          = form.label :option1, {value: :option1}
+          = form.radio_button :option, :option2
+          = form.label :option2, {value: :option2}
+        .form-group
+          = form.submit
